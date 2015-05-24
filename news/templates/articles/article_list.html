@@ -1,0 +1,16 @@
+{% extends "articles/base.html" %}
+
+{% load feincms_tags i18n %}
+
+{% block article-content %}
+
+    {% for article in object_list %}  
+    <div class="article short">
+        <div class="preview">
+            <h3><a href="{{ article.get_absolute_url }}">{{ article }}</a></h3>
+            {% feincms_render_region article 'preview' request %}
+        </div>
+    </div>
+    {% endfor %}
+
+{% endblock %}

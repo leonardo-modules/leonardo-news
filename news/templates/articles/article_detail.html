@@ -9,6 +9,7 @@
 
 {% block article-content %}
     <div class="article full">
+    	<div class="date"><i>{{ object.publication_date }}</i></div>
         {% feincms_render_region object 'main' request %}
     </div>
 {% endblock %}

@@ -10,9 +10,9 @@
     <div>
         <ol class="row-fluid">
 			{% for object in widget.get_news %}
-				<div class="object-meta">{{ object.published_on|date:"j. m. Y" }}</div>
 				<div class="object-text">
 					<h3><a href="{{ object.get_absolute_url }}">{{ object.title }}</a></h3>
+					<div class="object-meta"><i>{{ object.publication_date|date:"j. m. Y" }}</i></div>
 					{% feincms_render_region object "preview" request %}
 				</div>
 				<a class="button" href="{{ object.get_absolute_url }}"><span><span>{% trans "Detail" %}</span></span></a>
