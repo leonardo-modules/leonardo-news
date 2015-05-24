@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-26 13:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:35
+msgid "Employee"
+msgstr ""
+
+#: models.py:36
+msgid "Employees"
+msgstr ""
+
+#: models.py:48 templates/team/person_detail.html:24
+msgid "position"
+msgstr ""
+
+#: models.py:49
+msgid "top text"
+msgstr ""
+
+#: models.py:50
+msgid "bottom text"
+msgstr ""
+
+#: models.py:53
+msgid "text"
+msgstr ""
+
+#: models.py:54
+msgid "texts"
+msgstr ""
+
+#: templates/team/person_detail.html:23
+msgid "name"
+msgstr ""
+
+#: templates/team/person_list.html:8
+msgid "our managers"
+msgstr ""
+
+#: templates/team/person_list.html:20
+msgid "our team"
+msgstr ""
+
+#~ msgid "home"
+#~ msgstr "home"
+
+#~ msgid "supervision"
+#~ msgstr "engineering supervision"
+
+#~ msgid "projecting"
+#~ msgstr "design"

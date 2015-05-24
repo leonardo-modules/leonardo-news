@@ -1,0 +1,16 @@
+
+{% load i18n feincms_tags %}
+
+{% block content %}
+
+{% block article-title %}<h3>{{ object }}</h3>{% endblock %}
+
+{% block article-aside %}{% endblock %}
+
+{% block article-content %}
+    <div class="article full">
+        {% feincms_render_region object 'main' request %}
+    </div>
+{% endblock %}
+
+{% endblock %}
