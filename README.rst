@@ -19,6 +19,8 @@ optionaly install ``django-taggit``
 
 .. code-block:: bash
 
+    pip install leonardo-news[taggit]
+    
     pip install django-taggit
 
 or as leonardo bundle
