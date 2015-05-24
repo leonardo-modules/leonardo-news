@@ -7,7 +7,6 @@ from leonardo.module import media, web
 
 Article.register_extensions('feincms.module.extensions.translations',
                             'feincms.module.extensions.datepublisher',
-                            'articles.extensions.tags',
                             'articles.extensions.thumbnail',
                             )
 
