@@ -1,5 +1,5 @@
 
-{% load i18n feincms_tags %}
+{% load i18n leonardo_tags %}
 
 {% block content %}
 
@@ -11,6 +11,7 @@
     <div class="article full">
     	<div class="date"><i>{{ object.publication_date }}</i></div>
         {% feincms_render_region object 'main' request %}
+        {% render_region_tools object 'main' request %}
     </div>
 {% endblock %}
 
